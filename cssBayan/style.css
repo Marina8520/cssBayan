@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgb(243, 221, 160);
+    display: flex;
+  }
+  
+.container { 
+    width: calc(100% - 40px);
+    max-width: 1440px;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.mems_body {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0;
+}
+
+.mems_photo {
+    display: flex;
+    justify-content: center;
+    margin: 1% 0;
+}
+
+img {
+    width: 60%;
+}
+.mems_body:hover {
+    color: blue;
+}
